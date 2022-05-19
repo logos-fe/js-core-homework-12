@@ -15,7 +15,7 @@ cross.onclick = () => {
 }
 
 back.addEventListener('click', (event) => {
-   if (event.target.id === 'block'){
+   if (event.target.id === 'block' || event.target.className === 'text'){
       return false
    } else {
       pop.classList.remove('popup');
