@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.open-btn {
+  margin: 0;
+}
+
+.container {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.back {
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+}
+.back-on {
+  display: block;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.popdown {
+  display: none;
+}
+
+.popup {
+  display: flex;
+  width: 400px;
+  height: 300px;
+  border-radius: 25px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  margin-top: 10%;
+}
+
+.yellow {
+  background-color: yellow;
+  border-radius: 10px;
+}
+.coral {
+  background-color: coral;
+  border-radius: 0;
+}
+
+.cross {
+  align-self: end;
+}
+
+.text {
+  font-size: 40px;
+  margin: 75px auto;
+}
