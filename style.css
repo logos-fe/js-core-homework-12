@@ -1,0 +1,69 @@
+body {
+    font-family: 'Jura', sans-serif;
+}
+
+.open-me-btn {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 85px;
+    border-radius: 22px;
+    font-size: 24px;
+    background-color:lightsalmon;
+    border: 1px solid lightsalmon;
+    font-family: 'Jura', sans-serif;
+}
+
+.open-me-btn:hover {
+    cursor: pointer;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.modal-window {
+    position: absolute;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 350px;
+    background-color: #C3B1E1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    border-radius: 22px;
+}
+
+.unavailable {
+    display: none;
+}
+
+.close-window {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 30px;
+    height: 30px;
+    background: url('./img/close-cross-svgrepo-com.svg') 100% 100% no-repeat;
+    background-size: cover;
+    background-color: transparent;
+    border: 0px;
+}
+
+.close-window:hover{
+    cursor: pointer;
+}
+
+
+
